@@ -138,3 +138,28 @@ h2 {
     background-color: #F1EDEF;
 }
 
+menu-acessibilidade {
+    position: fixed;
+    top: 3rem;
+    right: 20px;
+    z_indez: 1000;
+}
+
+rotação-botão {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+opções-acessibilidade {
+    margin_top: 10px;
+    display:flex;
+    flex direction:columm;
+}
+
+opções-acessibilidade button {
+    margin-button: 5px;
+}
+
+apresenta-lista {
+    display: nome;
+}
