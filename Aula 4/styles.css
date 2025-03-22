@@ -7,13 +7,12 @@
 
 body {
     font-size: 1rem;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
     background-color: #ffffff;
 }
-
 
 section {
     padding-bottom: 5rem;
@@ -25,9 +24,7 @@ section {
 }
 
 .inicio-fundo {
-    /* aula 3 */
-    background-image: url('img/4965007.jpg');
-    /* Substitua pelo caminho da sua imagem */
+    background-image: url('img/4965007.jpg'); /* Substitua pelo caminho correto da imagem */
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -37,7 +34,7 @@ section {
     margin: 0 auto;
 }
 
-/* posicionamento para a imagem à direita */
+/* Posicionamento da imagem à direita */
 .img-inicio {
     position: absolute;
     right: 0;
@@ -46,14 +43,12 @@ section {
     height: auto;
 }
 
-
 .esquerda-conteudo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
 }
-
 
 .botao-inicio {
     background-color: var(--laranja-claro);
@@ -62,13 +57,11 @@ section {
     width: 14em;
     height: 3em;
     align-content: center;
-
 }
 
 .display-4 {
     text-shadow: -5px 5px var(--laranja-claro);
 }
-
 
 #tropicalia {
     position: relative;
@@ -78,7 +71,6 @@ section {
     background: url('img/flor.png') top right no-repeat,
         url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
-    /* Ajuste o tamanho conforme necessário */
 }
 
 #tropicalia .container {
@@ -87,9 +79,7 @@ section {
     justify-content: center;
     position: relative;
     z-index: 1;
-    /* Garante que o conteúdo fica acima das imagens do background */
 }
-
 
 h2 {
     font-family: 'Lemon', serif;
@@ -100,7 +90,6 @@ h2 {
 
 #galeria {
     background-color: #FAF4F4;
-
 }
 
 .fundo-galeria {
@@ -112,18 +101,13 @@ h2 {
     background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
-    /* Espaçamento interno para a seção de contato */
-
 }
 
 .formulario {
     background-color: #ffffff;
     padding: 2rem;
-    /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
-    /* Borda arredondada para o formulário */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
@@ -137,28 +121,29 @@ h2 {
     background-color: #F1EDEF;
 }
 
-menu-acessibilidade {
+/* Correção dos seletores */
+.menu-acessibilidade {
     position: fixed;
     top: 3rem;
     right: 20px;
-    z_indez: 1000;
+    z-index: 1000;
 }
 
-rotação-botao {
+.rotação-botao {
     transform: rotate(-90deg);
     transform-origin: right center;
 }
 
-opções-acessibilidade {
-    margin_top: 10px;
-    display:flex;
-    flexdirection:columm;
+.opções-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-opções-acessibilidade button {
-    margin-button: 5px;
+.opções-acessibilidade button {
+    margin-bottom: 5px;
 }
 
-apresenta-lista {
-    display: nome;
+.apresenta-lista {
+    display: none;
 }
