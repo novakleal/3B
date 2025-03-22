@@ -19,7 +19,6 @@ section {
     padding-bottom: 5rem;
 }
 
-
 .nav-link {
     color: #CB6D43;
     font-weight: 600;
@@ -145,7 +144,7 @@ menu-acessibilidade {
     z_indez: 1000;
 }
 
-rotação-botão {
+rotação-botao {
     transform: rotate(-90deg);
     transform-origin: right center;
 }
@@ -153,7 +152,7 @@ rotação-botão {
 opções-acessibilidade {
     margin_top: 10px;
     display:flex;
-    flex direction:columm;
+    flexdirection:columm;
 }
 
 opções-acessibilidade button {
