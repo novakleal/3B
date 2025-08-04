@@ -1,0 +1,143 @@
+:root {
+    --primaria: #2f855a;
+    --secundaria: #edf2f7;
+    --destaque: #f6ad55;
+    --texto: #2d3748;
+    --fonte-principal: 'Roboto', sans-serif;
+    --fonte-titulo: 'Playfair Display', serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--fonte-principal);
+    background: var(--secundaria);
+    color: var(--texto);
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .navbar {
+    background-color: var(--primaria);
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: url('https://www.idrparana.pr.gov.br/sites/iapar/arquivos_restritos/files/imagem/2022-12/anyconv.com_whatsapp_image_2022-02-07_at_23.54.00_0.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    font-family: var(--fonte-titulo);
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section h2 {
+    color: var(--primaria);
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .beneficios ul.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .beneficios li {
+    background: white;
+    border-left: 6px solid var(--destaque);
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .grid-imagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  
+  .grid-imagens img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    object-fit: cover;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .imagem_video img {
+    width: 100px;  /* Ajuste a largura conforme necessário */
+    height: auto;  /* A altura se ajustará automaticamente para manter a proporção da imagem */
+  }
+  
+  .contato a {
+    color: var(--primaria);
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #2d3748;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.9em;
+  }
+  
